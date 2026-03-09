@@ -15,7 +15,7 @@ public class TaskItem
 
     public DateTime CreatedAt { get; set; }
 
-    public DateTime? UpdatedAt { get; set}
+    public DateTime? UpdatedAt { get; set;}
 
 }
 
@@ -26,6 +26,6 @@ public enum Priority
 
     Medium = 1,
 
-    High = 2;
+    High = 2
 
 }
